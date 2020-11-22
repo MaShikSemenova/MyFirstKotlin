@@ -13,8 +13,8 @@ class MainActivity : AppCompatActivity() {
 
         setSupportActionBar(findViewById(R.id.toolbar))
 
-        val button: Button =findViewById(R.id.button_first)
-        button.setOnClickListener{moveToMovieDetailsScreen()}
+        val button: Button = findViewById(R.id.button_first)
+        button.setOnClickListener { moveToMovieDetailsScreen() }
 
     }
 

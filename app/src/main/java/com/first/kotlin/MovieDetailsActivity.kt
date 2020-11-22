@@ -10,9 +10,9 @@ class MovieDetailsActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_movie_details)
 
-        val button: Button =findViewById<Button>(R.id.back_button)
+        val button: Button = findViewById<Button>(R.id.back_button)
 
-        button.setOnClickListener{moveToMainScreen()}
+        button.setOnClickListener { moveToMainScreen() }
     }
 
     private fun moveToMainScreen(){
